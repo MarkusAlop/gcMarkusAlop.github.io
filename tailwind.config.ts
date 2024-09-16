@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
-import defaultTheme from "tailwindcss/defaultTheme";
+import defaultTheme from "tailwindcss/defaultTheme"
+import flowbitePlugin from "flowbite/plugin";
 
 
 export default {
@@ -29,5 +30,5 @@ colors: {
 		},
 	},
 
-	plugins: [],
+	plugins: [flowbitePlugin],
 } as Config;
